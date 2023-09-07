@@ -22,7 +22,9 @@
         </nav>
     </header>
     <main>
+        {% filter indent(width=4, first=True) %}
         {% block main %}{% endblock main %}
+        {% endfilter %}
     </main>
 </body>
 </html>
