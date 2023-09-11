@@ -5,7 +5,9 @@ html {
   margin: auto;
   line-height: 1.75;
   font-size: 1.25em;
+  color: #424949;
   font-family: "Helvetica", "Arial", sans-serif;
+  background-color: #faf8f1;
 }
 
 /* https://codepen.io/nickisix/pen/xxqvbv */
@@ -17,7 +19,7 @@ header a,
 header label {
   display: block;
   padding: 20px 0px 20px 0px;
-  color: #1d1d1d;
+  color: #424949;
   text-decoration: none;
   line-height: 20px;
 }
@@ -77,6 +79,12 @@ nav a {
 #nav:checked~nav {
   max-height: 200px;
   /* This can be anything bigger than your nav height. The transition duration works with this */
+}
+
+footer {
+  font-size: 0.7em;
+  padding-top: 40px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 700px) {
