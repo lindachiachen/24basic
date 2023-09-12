@@ -4,7 +4,7 @@ import shutil
 import jinja2
 
 TEMPLATE_DIR = "./templates"
-OUTPUT_DIR = "./dist"
+OUTPUT_DIR = "./docs"
 BASE_DIR = os.getcwd()
 
 env = jinja2.Environment(
