@@ -1,10 +1,10 @@
 /* https://www.swyx.io/css-100-bytes */
 html {
-  max-width: 70ch;
+  max-width: 80ch;
   padding: 3em 1em;
   margin: auto;
   line-height: 1.75;
-  font-size: 1.25em;
+  font-size: 1em;
   color: #424949;
   font-family: "Helvetica", "Arial", sans-serif;
   background-color: #faf8f1;
@@ -85,6 +85,24 @@ footer {
   font-size: 0.7em;
   padding-top: 40px;
   text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 200px;
+  height: 220px;
+  border-radius: 50% 20% / 10% 40%;
+  object-fit: cover;
+  padding-right: 0.3em;
+}
+
+.text {
+  font-size: 1.05em;
 }
 
 @media only screen and (min-width: 700px) {

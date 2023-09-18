@@ -1,5 +1,5 @@
 PORT=8000
-OUTPUT_DIR=./dist
+OUTPUT_DIR=./docs
 
 build:
 	./build.sh
